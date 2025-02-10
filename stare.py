@@ -48,6 +48,9 @@ time.sleep(2.0)
 # Main loop to process video frames
 start_time = time.time()
 while True:
+
+    plt.clf() #avoid building up artists
+
     ret, frame = vs.read()  # Capture a frame
     if not ret:
         break  # Exit if the frame could not be captured
