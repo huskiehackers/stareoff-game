@@ -37,6 +37,11 @@ wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bunzip2 shape_predictor_68_face_landmarks.dat.bz2
 ```
 
+## Alternative Download Methods
+1. Visit [shape_predictor_68_face_landmarks.dat](https://github.com/ageitgey/face_recognition_models/blob/master/face_recognition_models/models/shape_predictor_68_face_landmarks.dat)
+2. Download the file
+3. Place in project directory
+
 ## How to Play
 1. Run the game: ```python main.py```
 
